@@ -5,7 +5,7 @@ let navList = document.querySelector('.navbar');
 const readMoreBtn = document.querySelector(".read-more-btn");
 const hiddenText = document.querySelector(".hidden-text");
 const mainText = document.querySelector(".main-text");
-const maxLength = 500; // Maximum length of sliced text
+const maxLength = 800; // Maximum length of sliced text
 
 // stricky header
 let header = document.querySelector('header');
