@@ -338,6 +338,7 @@ section {
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    line-height: 25px;
 }
 
 .btn-box.btns {
@@ -861,6 +862,10 @@ section {
 
     .navbar.open {
         top: 100%;
+    }
+
+    .about-content P{
+        line-height: 20px;
     }
 
 }
