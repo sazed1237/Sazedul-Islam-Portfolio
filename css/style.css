@@ -96,9 +96,11 @@ body {
 }
 
 #menu-icon {
-    font-size: 3.6rem;
+    font-size: 25px;
     color: var(--text-color);
+    z-index: 10001;
     cursor: pointer;
+    margin: 25px;
     display: none;
 }
 
@@ -629,7 +631,7 @@ section {
     justify-content: center;
     text-align: center;
     padding: 0 40px;
-    transition: height 0.5s; 
+    transition: height 0.5s;
 }
 
 .layer h5 {
@@ -817,4 +819,48 @@ section {
     html {
         font-size: 50%;
     }
+}
+
+/* navbar  */
+
+@media (max-width: 840px) {
+    #menu-icon{
+        display: block;
+        color: #ededed;
+
+    }
+
+    .navbar {
+        position: absolute;
+        top: -1000px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        text-align: left;
+        transition: all .45s ease;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 17px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: var(--text-color);
+
+    }
+
+    .navbar a.active {
+        color: var(--text-color);
+    }
+
+    .navbar a:hover {
+        color: var(--main-color);
+    }
+
+    .navbar.open {
+        top: 100%;
+    }
+
 }
