@@ -620,7 +620,7 @@ section {
 .layer {
     height: 0%;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), #00abf0);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), #033f57);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -645,6 +645,7 @@ section {
     font-size: var(--p-font);
     line-height: 1.8;
     color: var(--second-color);
+
 }
 
 .layer i {
@@ -825,7 +826,7 @@ section {
 /* navbar  */
 
 @media (max-width: 840px) {
-    #menu-icon{
+    #menu-icon {
         display: block;
         /* color: #ededed; */
 
@@ -864,7 +865,7 @@ section {
         top: 100%;
     }
 
-    .about-content P{
+    .about-content P {
         line-height: 20px;
     }
 
